@@ -9,36 +9,41 @@
 </head>
   <body>
   <header>
-        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top box-shadow">
-            <a href="index.html" class="navbar-brand d-none d-md-block ps-1">
-              <img src="img/Lazuli logo 2.jpeg" alt="Lazuli" width="220px" height="70px"></a>
-            
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Abrir Navegação">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light box-shadow fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a> 
+        <img src="img/Lazuli logo 2.jpeg" alt="Lazuli" width="210px" height="80px">               
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button> <!--Botão para o menu em modo responsivo-->
-            
-        <div class="collapse navbar-collapse h4 d-flex justify-content-end"  id="navbarSupportedContent">
-            <ul class="navbar-nav">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 h4">
+            <li class="nav-item px-3">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link h4 text-dark" href="#">Página inicial</a>
+            </li>
             <li class="nav-item dropdown px-3">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Locais</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="local.html">Califórnia</a>
-              <a class="dropdown-item" href="local.html">Paris</a>
-              <a class="dropdown-item" href="local.html">Dublin</a>
-            </div>
-            </li>
-            <li class="nav-item px-3"> 
-              <a class="nav-link" href="planos.html">Planos</a>
-            </li>
-            <li class="nav-item px-3">
-              <a class="nav-link" href="contato.html">Contato</a>
-            </li>
-            <li class="nav-item px-3">
-              <a class="nav-link" href="#">Login</a>
+              <a class="nav-link dropdown-toggle h4 text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pacotes
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Paris</a></li>
+                <li><a class="dropdown-item" href="#">Califórnia</a></li>
+                <li><a class="dropdown-item" href="#">Dublin</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Simule outro pacote</a></li>
+              </ul>
             </li>            
-            </ul>
-        </div>            
-        </nav>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2 border-radius: 10px;" style="border: solid 3px rgb(1, 36, 67);" type="search" placeholder="Procure no site" aria-label="Search">
+            <button class="btn btn-outline-success text-white" style="border: solid 3px rgb(1, 36, 67); background-color: rgb(1, 36, 67);" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>        
   </header>
         <section class="container-fluid">
         <div class="row text-dark bg-light">
@@ -81,9 +86,9 @@
             <p class="lead pt-5">Fique por dentro de todos os nossos avisos e promoções:</p>
         <form action="">
         <div class="input-group input-group-lg my-4">
-          <input type="text" style="border: solid 3px rgb(1, 36, 67);" class="form-control" placeholder="E-mail" aria-label="E-mail" aria-describedby="button-addon2">
+          <input type="text" style="border: solid 3px rgb(1, 36, 67); border-radius: 10px;" class="form-control" placeholder="E-mail" aria-label="E-mail" aria-describedby="button-addon2">
           <span class="input-group-append input-group-lg">
-          <button class="btn text-white" style="border: solid 3px rgb(1, 36, 67); background-color: rgb(1, 36, 67);" type="button" id="button-addon2">Inscreva-se</button>
+          <button class="btn text-white ms-2" style="border: solid 3px rgb(1, 36, 67); background-color: rgb(1, 36, 67);" type="button" id="button-addon2">Inscreva-se</button>
           </span>
         </div>
         </form>
