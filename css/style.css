@@ -10,12 +10,21 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
 }
 
+body {
+    padding-top: 100px;
+}
+
 .icone {
     height: 100px;
 }
 
 .fixed-top {
     position: relative;
+}
+
+.navbar {
+    position: fixed;
+    background-color: white;
 }
 
 #home-quote {
