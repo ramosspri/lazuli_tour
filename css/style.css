@@ -1,9 +1,9 @@
 /* theme {    
 .Lazuli-1-rgba { color: rgba(14, 61, 89, 1);} #AzulEscuro
-.Lazuli-2-rgba { color: rgba(4, 157, 217, 1); } #AzulMaisClaro
-.Lazuli-3-rgba { color: rgba(4, 191, 191, 1); } #VerdeÁgua
-.Lazuli-4-rgba { color: rgba(4, 217, 178, 1); } #VerdeEsmeralda
-.Lazuli-5-rgba { color: rgba(242, 242, 242, 1); } #BrancoAcinzentado
+.Lazuli-2-rgba { color: rgba(4, 157, 217, 1);} #AzulMaisClaro
+.Lazuli-3-rgba { color: rgba(4, 191, 191, 1);} #VerdeÁgua
+.Lazuli-4-rgba { color: rgba(4, 217, 178, 1);} #VerdeEsmeralda
+.Lazuli-5-rgba { color: rgba(242, 242, 242, 1);} #BrancoAcinzentado
 */
 .box-shadow {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
@@ -46,4 +46,12 @@ body {
 
 .pergunta {
     border-bottom: double 5px rgb(197, 196, 196);
+}
+
+.lista-plano li + li {
+    border-top: solid 2px rgb(228, 216, 220);    
+}
+
+.lista-plano li {
+    padding: 10px;
 }
